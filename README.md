@@ -5,16 +5,16 @@ This project was created as part of my portfolio to showcase my skills in **cros
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - 🔎 **Movie Search** – Find movies by title  
 - 📖 **Details Page** – View release date, rating, and overview  
 - 🌐 **API Integration** – Real-time data from [The Movie Database API](https://www.omdbapi.com/)  
 - 📱 **Cross-Platform** – Works on Android, iOS, and Windows  
-- 🧩 **MVVM Pattern** – Clean separation of UI and logic  
+- 🧩 **MVC Pattern** – Clean separation of UI and logic  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Languages & Frameworks**: C#, XAML, .NET MAUI  
 - **Architecture**: MVC  
 - **APIs**: REST API (OMDb)  
@@ -22,5 +22,5 @@ This project was created as part of my portfolio to showcase my skills in **cros
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
