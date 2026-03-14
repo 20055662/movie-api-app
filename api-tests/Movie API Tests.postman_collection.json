@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "2e9f73e9-c98b-4ece-a3e7-780940db38c5",
+    "name": "Movie API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53060168",
+    "_collection_link": "https://go.postman.co/collection/53060168-2e9f73e9-c98b-4ece-a3e7-780940db38c5?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Search",
+      "item": [
+        {
+          "name": "Search Movie",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Movie Details",
+      "item": [
+        {
+          "name": "Get Movie details",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Negative Tests",
+      "item": [
+        {
+          "name": "Invalid Search",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Empty Search",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "API Error Test",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

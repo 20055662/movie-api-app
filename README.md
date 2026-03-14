@@ -66,17 +66,28 @@ The application was designed to simulate a real-world mobile app workflow includ
 
 ---
 
-# API Testing
+## Testing
 
-API endpoints were tested using **Postman**.
+This project also includes API testing using Postman.
 
-Test scenarios include:
+### Testing covered
+- Valid movie search requests
+- Invalid or empty search input
+- API response handling
+- JSON response validation
+- Error and edge-case scenarios
 
-• Search Movie  
-• Get Movie Details  
-• Invalid Search  
-• Empty Search  
-• API Error Handling  
+### Tools used
+- Postman
+- Manual functional testing
+
+### Example test scenarios
+- Search with a valid movie title
+- Search with an empty query
+- Search with special characters
+- Validate missing or incomplete API response fields
+
+Postman collection is included in the `api-tests` folder.
 
 Example request:
 http://www.omdbapi.com/?i=tt3896198&apikey=fd3b3c04
