@@ -1,26 +1,90 @@
-﻿# 🎬 Movie API App
+﻿# Movie Search App (.NET MAUI)
 
-A cross-platform mobile application built with **.NET MAUI (C# / XAML)** that allows users to search and explore movies using a public REST API.  
-This project was created as part of my portfolio to showcase my skills in **cross-platform app development, API integration, and clean architecture (MVC).**
+![C#](https://img.shields.io/badge/language-C%23-blue)
+![.NET](https://img.shields.io/badge/framework-.NET-purple)
+![API](https://img.shields.io/badge/API-REST-green)
+![Database](https://img.shields.io/badge/database-SQLite-orange)
 
----
-
-##  Key Features
-- 🔎 **Movie Search** – Find movies by title  
-- 📖 **Details Page** – View release date, rating, and overview  
-- 🌐 **API Integration** – Real-time data from [The Movie Database API](https://www.omdbapi.com/)  
-- 📱 **Cross-Platform** – Works on Android, iOS, and Windows  
-- 🧩 **MVC Pattern** – Clean separation of UI and logic  
+A cross-platform mobile application built with **C# and .NET MAUI** that allows users to search movies using an external API, view movie details, and manage favourite movies locally.
 
 ---
 
-##  Tech Stack
-- **Languages & Frameworks**: C#, XAML, .NET MAUI  
-- **Architecture**: MVC  
-- **APIs**: REST API (OMDb)  
-- **Tools**: Visual Studio 2022, Git, GitHub  
+# Overview
+
+This project demonstrates how to build a mobile application that integrates with a **REST API**, processes **JSON data**, and stores user data locally using **SQLite**.
+
+The application was designed to simulate a real-world mobile app workflow including API integration, data persistence, and basic testing.
 
 ---
 
-##  Getting Started
+# Features
 
+• Search movies using OMDb API  
+• Display movie details  
+• Save favourite movies locally  
+• Add / Delete saved records  
+• Local data storage using SQLite  
+
+---
+
+# Application Pages
+
+- Search Page 
+- Movie Details   
+- Movie List  
+- Settings Page  
+
+---
+
+# Tech Stack
+
+**Language**
+- C#
+
+**Framework**
+- .NET MAUI
+
+**API**
+- OMDb REST API
+
+**Data**
+- JSON
+- SQLite
+
+**Architecture**
+- MVC pattern
+
+**Testing**
+- Postman API testing
+
+---
+
+# Screenshots
+
+## sample Search Page
+![Search page](screenshots/movie-app/search-page.png)
+
+---
+
+# API Testing
+
+API endpoints were tested using **Postman**.
+
+Test scenarios include:
+
+• Search Movie  
+• Get Movie Details  
+• Invalid Search  
+• Empty Search  
+• API Error Handling  
+
+Example request:
+http://www.omdbapi.com/?i=tt3896198&apikey=fd3b3c04
+
+
+Example Postman test:
+
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
